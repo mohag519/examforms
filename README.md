@@ -25,7 +25,7 @@ A brief recap of the implementation in Sectra RIS.
 | Database Table              | Description                                                                                                                     
 | ----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | `TC_FORM_CONDITION`                  | Holds the condition definition as it is defined in the Form Admin.                                                              |
-| `TC_FORM_FIELD`                      | Holds an field definition as it is defined in the Form Admin. This is the fields you can use when creating a new form template. |
+| `TC_FORM_FIELD`                      | Holds a field definition as it is defined in the Form Admin. These are the fields you can use when creating a new form template. |
 | `TC_FORM_FIELDVALUE`                   | Holds valid values for a `TC_FORM_FIELD`, i.e. the options for a COMBOBOX.                                                      |
 | `TC_FORM_DATA`     | Holds the value saved, connects `TC_EXAMINATION` and `TC_FROM_TEMPLATE`                                                         |
 | `TC_FORM_TEMPLATE`          | A form template, this is the actual examination form without data, data is stored *outside* in `TC_FORM_DATA`                   |
